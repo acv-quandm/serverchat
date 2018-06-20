@@ -1,6 +1,7 @@
 var mongo = require('mongodb')
 var mongoClient = mongo.MongoClient
 var database = 'databasechat'
+var URL_CONNECT ="mongodb://localhost:27017"
 
 
 // Tạo collection
@@ -10,7 +11,7 @@ var database = 'databasechat'
 // tìm kiếm
 module.exports = {
     createCollection: function(nameCollection){
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.createCollection(nameCollection, function(err, res) {
@@ -21,7 +22,7 @@ module.exports = {
         })
     },
     insertOne: function (nameCollection,valueInsert,callback,errorCallback) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) {
                 errorCallback(err)
             };
@@ -38,7 +39,7 @@ module.exports = {
         })
     },
     insertMany: function (nameCollection,valueInsert) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).insertMany(valueInsert, function(err, res) {
@@ -49,7 +50,7 @@ module.exports = {
         })
     },
     find: function (nameCollection,query,fields,callback) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).find(query).project(fields).toArray(function (err,result) {
@@ -62,7 +63,7 @@ module.exports = {
     findOne: function (nameCollection,query,callback) {
 
 
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).findOne(query,function (err,result) {
@@ -73,7 +74,7 @@ module.exports = {
         })
     },
     findMany: function (nameCollection,query,callback) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).find(query).toArray(function (err,result) {
@@ -84,7 +85,7 @@ module.exports = {
         })
     },
     sort: function (nameCollection,query,fields,callback,mysort) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).find(query).project(fields).sort(mysort).toArray(function (err,result) {
@@ -95,7 +96,7 @@ module.exports = {
         })
     },
     deleteOne: function (nameCollection,query,callback) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).deleteOne(query, function(err, obj) {
@@ -107,7 +108,7 @@ module.exports = {
         })
     },
     deleteMany: function (nameCollection,query) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).deleteMany(query, function(err, obj) {
@@ -118,7 +119,7 @@ module.exports = {
         })
     },
     dropColection: function (nameCollection,query) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.dropCollection(nameCollection, function(err, delOK) {
@@ -129,7 +130,7 @@ module.exports = {
         })
     },
     updateOne: function (nameCollection,query,value) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).updateOne(query, {$set: value}, function(err, res) {
@@ -141,7 +142,7 @@ module.exports = {
         })
     },
     updateMany: function (nameCollection,query,value) {
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             dbo.collection(nameCollection).updateMany(query, {$set: value}, function(err, res) {
@@ -152,7 +153,7 @@ module.exports = {
         })
     },
     createIndex: function(nameCollection,index_option,callback,errorCallback){
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err){
                 errorCallback(err)
             };
@@ -165,7 +166,7 @@ module.exports = {
         })
     },
     createOptionIndex: function(nameCollection,index,option,callback,errorCallback){
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) {
                 errorCallback(err)
             };
@@ -178,7 +179,7 @@ module.exports = {
         })
     },
     getIndex: function(nameCollection,callback){
-        mongoClient.connect( "mongodb://localhost:27017",function (err,db) {
+        mongoClient.connect( URL_CONNECT,function (err,db) {
             if (err) throw err;
             var dbo = db.db(database);
             callback(dbo.collection(nameCollection).getIndexes())

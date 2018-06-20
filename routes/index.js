@@ -209,6 +209,7 @@ router.post('/un-friend',function (req,res,next) {
         })
     }
 })
+
 router.post('/post-status',function (req,res,next) {
     var content_post = req.body.content_post
     var date_time = new Date().toLocaleString();

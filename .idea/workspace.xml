@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050f8eb2-618e-48e2-b491-7ecfe4299e66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/mongodb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/chat.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/chatRom.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/video.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/engine.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/engine.io.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/socket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling-jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling-jsonp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling-xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling-xhr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/websocket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/xmlhttprequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/xmlhttprequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.slim.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/dist/socket.io.slim.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/lib/manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/lib/manager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/lib/on.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/lib/on.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/lib/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/lib/socket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/lib/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/lib/url.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/autotest.watchr" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/autotest.watchr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/example/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/example/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-exceptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-exceptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-headers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-redirect-302.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-redirect-302.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-redirect-303.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-redirect-303.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-redirect-307.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-redirect-307.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-request-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-request-methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-request-protocols.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest-ssl/tests/test-request-protocols.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mongodb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +18,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="615" lean-forward="true" selection-start-line="615" selection-end-line="615" />
+            <state relative-caret-position="68">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding>
                 <element signature="e#236#403#0" />
                 <element signature="e#459#940#0" />
@@ -84,35 +32,34 @@
                 <element signature="e#4685#5324#0" />
                 <element signature="e#5379#5937#0" />
                 <element signature="e#5988#6970#0" />
-                <element signature="e#7023#9756#0" />
-                <element signature="e#9811#11141#0" />
-                <element signature="e#11194#12975#0" />
-                <element signature="e#13031#13581#0" />
-                <element signature="e#13637#14187#0" />
-                <element signature="e#13627#15605#0" />
-                <element signature="e#15652#17441#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mongodb.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2458">
+              <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/mongodb.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#176#6961#0" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="306">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -148,10 +95,12 @@
       <find>process</find>
       <find>update</find>
       <find>find</find>
+      <find>&quot;mongodb://localhost:27017&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>function (err,db)</replace>
       <replace>db.db(database)</replace>
+      <replace>URL_CONNECT</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,9 +117,9 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/views/chatRom.ejs" />
         <option value="$PROJECT_DIR$/modules/src.js" />
-        <option value="$PROJECT_DIR$/modules/mongodb.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/modules/mongodb.js" />
       </list>
     </option>
   </component>
@@ -251,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.1.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/fontend-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
@@ -297,11 +246,12 @@
       <workItem from="1529026937877" duration="127000" />
       <workItem from="1529307021451" duration="8433000" />
       <workItem from="1529389876823" duration="1463000" />
+      <workItem from="1529463669656" duration="691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112469000" />
+    <option name="totallyTimeSpent" value="113160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -311,10 +261,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18614718" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27292112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761194" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -378,13 +328,6 @@
             <element signature="e#4685#5324#0" />
             <element signature="e#5379#5937#0" />
             <element signature="e#5988#6970#0" />
-            <element signature="e#7023#9756#0" />
-            <element signature="e#9811#11141#0" />
-            <element signature="e#11194#12975#0" />
-            <element signature="e#13031#13581#0" />
-            <element signature="e#13637#14187#0" />
-            <element signature="e#13627#15605#0" />
-            <element signature="e#15652#17441#0" />
           </folding>
         </state>
       </provider>
@@ -433,13 +376,6 @@
             <element signature="e#4685#5324#0" />
             <element signature="e#5379#5937#0" />
             <element signature="e#5988#6970#0" />
-            <element signature="e#7023#9756#0" />
-            <element signature="e#9811#11141#0" />
-            <element signature="e#11194#12975#0" />
-            <element signature="e#13031#13581#0" />
-            <element signature="e#13637#14187#0" />
-            <element signature="e#13627#15605#0" />
-            <element signature="e#15652#17441#0" />
           </folding>
         </state>
       </provider>
@@ -696,53 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="615" lean-forward="true" selection-start-line="615" selection-end-line="615" />
-          <folding>
-            <element signature="e#236#403#0" />
-            <element signature="e#459#940#0" />
-            <element signature="e#994#1184#0" />
-            <element signature="e#1239#2048#0" />
-            <element signature="e#2105#2462#0" />
-            <element signature="e#2521#2781#0" />
-            <element signature="e#2838#3359#0" />
-            <element signature="e#3411#4628#0" />
-            <element signature="e#4685#5324#0" />
-            <element signature="e#5379#5937#0" />
-            <element signature="e#5988#6970#0" />
-            <element signature="e#7023#9756#0" />
-            <element signature="e#9811#11141#0" />
-            <element signature="e#11194#12975#0" />
-            <element signature="e#13031#13581#0" />
-            <element signature="e#13637#14187#0" />
-            <element signature="e#13627#15605#0" />
-            <element signature="e#15652#17441#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="302" column="3" lean-forward="true" selection-start-line="302" selection-start-column="3" selection-end-line="302" selection-end-column="3" />
-          <folding>
-            <element signature="e#1741#10512#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mongodb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#176#6961#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runmongo.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -759,8 +648,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2458">
+          <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#236#403#0" />
+            <element signature="e#459#940#0" />
+            <element signature="e#994#1184#0" />
+            <element signature="e#1239#2048#0" />
+            <element signature="e#2105#2462#0" />
+            <element signature="e#2521#2781#0" />
+            <element signature="e#2838#3359#0" />
+            <element signature="e#3411#4628#0" />
+            <element signature="e#4685#5324#0" />
+            <element signature="e#5379#5937#0" />
+            <element signature="e#5988#6970#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
