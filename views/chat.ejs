@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" id="idClient" placeholder="id client">
+<input type="text" id="message" placeholder="Văn bản">
+<div id="chat">
+
+</div>
+<div id="all-client">
+
+</div>
+<input type="button" onclick="chat" value="Chát">
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+<script>
+    var socket = io.connect('http://localhost:3000')
+    // socket.on('id-user',function (data) {
+    //     console.log(data)
+    // })
+    socket.emit('user-online',new Date())
+    socket.on('give-message',function (data) {
+        $('#chat').append(data)
+    })
+    socket.on('all-client',function (data) {
+            $('#all-client').append(data)
+    })
+    function chat() {
+        socket.emit('chat-to',{
+            idClient : $('#idClient').val(),
+            message: $('#message').val()
+        })
+    }
+</script>
+</body>
+</html>

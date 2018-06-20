@@ -1,0 +1,22 @@
+﻿post
+	-> Id người post: id_user
+	-> posts
+-> Nội dung bài post -> content_post
+			{
+				images[],videos[],text 
+			}
+	-> Thời gian post: [date-time] date_time
+	-> comment[] : comments
+		{
+			id_user, id_user
+			nội dung{ content_comment
+				image,nội dung
+			}
+			time: date_time
+		}
+	-> Like [] -> id_user: likes
+	-> Share[] -> id_user <? share gì?> : shares
+		
+	
+
+	
